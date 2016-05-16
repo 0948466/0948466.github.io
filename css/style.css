@@ -103,6 +103,10 @@ h1 {
     min-width: 560px;
 }
 
+.header-side-right {
+    min-width: 267px;
+}
+
 .main-navigation {  
     }
 
