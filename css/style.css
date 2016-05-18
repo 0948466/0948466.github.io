@@ -30,7 +30,9 @@ body {
     -webkit-flex-basis: 100%; 
     -ms-flex-preferred-size: 100%; 
     flex-basis: 100%;
-    background: #849d8f;
+    
+    transition: background 0.5 ease;
+    
 }
 
 .col-1 {
@@ -382,8 +384,8 @@ h1 {
 }
 
 .slider-controls label:hover {
-    background-color: #b2c1b7;
-    
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.4);
 }
 
 #btn-1:checked ~ .wrap #slide1,
@@ -392,6 +394,7 @@ h1 {
     display: block;
 }
 
+/*
 #btn-1:checked ~ .wrap .index-slider {    
     background: #849d8f url(../img/slide1.png) 300px 0 no-repeat;
 }
@@ -403,23 +406,40 @@ h1 {
 #btn-3:checked ~ .wrap .index-slider {
     background: #9d8b84 url(../img/slide3.png) 300px 0 no-repeat;
 }
+*/
 
 #btn-1:checked ~ .wrap {    
-    background: #849d8f;
+    background: #849d8f url(../img/slide1.png) 50% 5% no-repeat;
 }
 
 #btn-2:checked ~ .wrap  {
-    background: #8996a6;
+    background: #8996a6 url(../img/slide2.png) 50% 5% no-repeat;
 }
 
 #btn-3:checked ~ .wrap  {
-    background: #9d8b84;
+    background: #9d8b84 url(../img/slide3.png) 50% 5% no-repeat;
 }
 
 #btn-1:checked ~ .wrap label[for="btn-1"],
 #btn-2:checked ~ .wrap label[for="btn-2"],
 #btn-3:checked ~ .wrap label[for="btn-3"] {
     background-color: #fff;
+}
+
+.wrap:before,
+.wrap:after {
+    content: "";
+    visibility: hidden;
+}
+
+.wrap:before,
+.wrap:after {
+    background-image: url(../img/slide2.png);
+}
+
+.wrap:before,
+.wrap:after {
+    background-image: url(../img/slide3.png);
 }
 
 .breadcrumbs {
