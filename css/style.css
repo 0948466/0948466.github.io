@@ -30,8 +30,8 @@ body {
     -webkit-flex-basis: 100%; 
     -ms-flex-preferred-size: 100%; 
     flex-basis: 100%;
-    
-    transition: background 0.5 ease;
+    background: #849d8f;
+    transition: background 0.5s ease;
     
 }
 
@@ -437,7 +437,6 @@ h1 {
     background-image: url(../img/slide2.png);
 }
 
-.wrap:before,
 .wrap:after {
     background-image: url(../img/slide3.png);
 }
@@ -998,12 +997,19 @@ height: 210px;
     margin-bottom: 35px;
 }
 
+.email-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
 .email-text {
     padding: 10px;
     box-sizing: border-box;
     width: 365px;
-    float: left;
+/   min-width: 230px;    
     border-radius: 5px;
+    margin-right: 10px;
 }
 
 .email-btn {
@@ -1012,8 +1018,7 @@ height: 210px;
     border-radius: 100px;
     border: none;
     color: #fff;
-    text-decoration: none;
-    float: right;
+    text-decoration: none;    
     font-size: 18px;
     line-height: 24px;
 }
