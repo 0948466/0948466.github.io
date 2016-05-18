@@ -4,6 +4,7 @@ body {
     font-family: "Roboto","Helvetica",neue;
     margin: 0;
     padding: 0;
+    background: #404040 ;
 }
 
 /*
@@ -16,6 +17,7 @@ body {
     min-width: 900px;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 2.3%;
     position: relative;    
     box-sizing: border-box;
     font-size: 16px;
@@ -25,12 +27,13 @@ body {
     -webkit-flex-basis: 100%; 
     -ms-flex-preferred-size: 100%; 
     flex-basis: 100%;
+    background: #849d8f;
 }
 
 .col-1 {
-    -webkit-flex-basis: 23.3%;
-    -ms-flex-preferred-size: 23.3%;
-    flex-basis: 23.3%;
+    -webkit-flex-basis: 22.2%;
+    -ms-flex-preferred-size: 22.2%;
+    flex-basis: 22.2%;
     box-sizing: border-box;
     min-width: 200px;
     max-width: 267px;
@@ -53,6 +56,7 @@ body {
     
 }
 
+/*
 .container {
     -webkit-flex-basis: 100%; 
     -ms-flex-preferred-size: 100%; 
@@ -67,6 +71,7 @@ body {
     color: #323232;
     font-weight: normal;    
 }
+*/
 
 .btn-style {
     box-shadow: 0 2px 2px 0 rgba(172,16,0,0.64);
@@ -1083,16 +1088,18 @@ height: 210px;
 }
 
 .map {
-    position: relative;
-    width: 100%;
+    position: relative;    
     height: 430px;
     background:#d9d3ba url(../img/map.jpg) no-repeat;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .contacts {
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 47.7%;
     margin-left: 271px;
     float: right;
     width: 275px;
