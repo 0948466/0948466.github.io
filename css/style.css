@@ -1099,15 +1099,15 @@ height: 210px;
 .contacts {
     position: absolute;
     top: 0;
-    left: 47.7%;
-    margin-left: 271px;
-    float: right;
-    width: 275px;
-    height: 252px;
+    left: 95.4%;
+    margin-left: -329px;
+    width: 329px;
+    height: 306px;
     background-color: #fffffe;
     border-radius: 20px;
     padding: 27px;
-    margin-top: 62px;    
+    margin-top: 62px;
+    box-sizing: border-box;
 }
 
 .contacts p {
@@ -1248,14 +1248,16 @@ height: 210px;
 .modal-content-entrance {
     position: absolute;
     top: 60px;
-    left: 50%;
-    margin-left: 170px;
-    width: 280px;
+    margin-top: 2.3%;
+    left: 97.7%;
+    margin-left: -450px;
+    width: 320px;
     background-color: #f8f7f4;
     padding: 20px;
     font-size: 14px;
     line-height: 24px;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .login-email, .password {
@@ -1289,8 +1291,10 @@ height: 210px;
     position: fixed;
     margin: 0;
     padding: 0;
-    width: 430px;
-    top:338px;
+    width: 480px;
+    top:30%;
+    
+    margin-left: -240px;
     left: 50%;
     padding: 25px;
     margin-left: -240px;
@@ -1299,6 +1303,7 @@ height: 210px;
     background-color: #f8f7f4;
     border-radius: 5px; 
     z-index: 20;
+    box-sizing: border-box;
 }
 
 .modal-feedback-close {
@@ -1383,16 +1388,17 @@ height: 210px;
 
 .modal-content-search {
     position: absolute;
-    top: 60px;
-    left: 50%;
-    margin-left: 3px;
-    width: 310px;
+    top: 88px;
+    left: 97.7%;
+    margin-left: -545px;
+    width: 320px;
     padding: 20px;
     font-size: 14px;
     line-height: 24px;
     color: #999;
     border-radius: 5px;
     background-color: #f8f7f4;
+    box-sizing: border-box;
 }
 
 .modal-search {
@@ -1404,8 +1410,8 @@ height: 210px;
 .modal-content-shopping-cart {
     position: absolute;
     content: "";
-    top: 59px;
-    left: 100%;
+    top: 88px;
+    left: 97.7%;
     margin-left:-541px;
     
     padding: 0px 15px;    
@@ -1416,7 +1422,7 @@ height: 210px;
     border-radius: 5px;
     font-size: 13px;
     line-height: 16px;
-    color: #323232;
+    color: #323232;    
 }
 
 .modal-content-shopping-cart .table {
