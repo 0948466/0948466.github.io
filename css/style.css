@@ -757,8 +757,9 @@ h4 {
         box-sizing: border-box;
     }
     .wrap {
+        position: relative;
         width:300px;
-        box-sizing: border-box;
+        box-sizing: border-box;        
     }
         
     .language-switching {
@@ -768,12 +769,12 @@ h4 {
     .index-slider {
         display: none;
     }
-    
+        
     .header-social {
         position: absolute;
         top:0;
         left: 100%;
-        margin-left: -110px;
+        margin-left: -33%;
     }
     
     .social-btn-skype {
@@ -783,11 +784,7 @@ h4 {
     .main-navigation {
         display: none;
     }
-    
-    .form-search {
-        position: relative;        
-    }
-    
+     
     .search {        
         width: 300px;
         padding: 10px 10px;
