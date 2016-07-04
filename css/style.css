@@ -1000,7 +1000,8 @@ h4 {
         width: 100%;
     }
     .wrap {        
-        width: 80%;
+        width: 100%;
+        min-width: 1170px;
     }
     
     .main-navigation {
