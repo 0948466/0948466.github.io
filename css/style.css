@@ -753,12 +753,14 @@ h4 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width : 767px) {
     body {
-        width:320px;        
+        width:320px;
+        box-sizing: border-box;
     }
     .wrap {
         width:300px;
+        box-sizing: border-box;
     }
-    
+        
     .language-switching {
         margin-bottom: 6px;
     }
