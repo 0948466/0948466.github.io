@@ -997,12 +997,34 @@ h4 {
 
 @media only screen and (min-device-width: 1920px) {
     body { 
-        width: 1920px;
-/*        width: 100%;*/
+        width: 100%;
     }
-    .wrap {
-        width: 1170px;
-/*        width: 100%;*/
+    .wrap {        
+        width: 80%;
+    }
+    
+    .main-navigation {
+        width: 53.3%;
+    }
+    
+    .header-lower {
+        text-align: center;
+    }
+    
+    .side-left {
+        max-width: 750px;
+        width: 47%;
+    }
+    
+    .side-right {
+        min-width: 335px;
+        width: 47%;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+    
+     .news-description {
+        width: 80%;
     }
     
     .footer-documentation .tablet {
@@ -1010,6 +1032,7 @@ h4 {
     }
     
     .footer-contacts, .footer-social {
+        width: 30%;
         padding-right: 15px;
         margin-right: 35px;
         border-right: 1px solid #dfdfdf;
